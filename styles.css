@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #5480aa; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.tennis-img {
+    width: 225px; 
+    height: 200px;
+    margin: 10px 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+.player {
+    background: #34495e; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 200px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #f39c12; 
+}
+
+p {
+    font-size: 2.5em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background-color: #e74c3c; 
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b; 
+    transform: scale(1.1);
+}
